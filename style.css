@@ -1,0 +1,76 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 3px solid black;
+    background-color: lightyellow;
+  }
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+    padding: 20px 0;
+    color: black;
+    text-align: center;
+    line-height: 2;
+  }
+
+h3{
+    margin: 0;
+    font-size: 20px;
+    padding: 20px 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+h4{
+    margin: 0;
+    size: 10px ;
+    padding: 5px 0;
+    color: rgb(46, 46, 46);
+    text-align: center;
+}
+
+#main {
+    line-height: 2;
+}
+.contact-header {
+    text-align: center; 
+    margin-bottom: 10px; 
+}
+
+.contact-info {
+    text-align: center; 
+    margin: 5px 0; 
+}
+
+p {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align:left;
+}
+.image-container {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.image-container img {
+    max-width: 30%; 
+    height: auto; 
+}
+
+.A {
+    border: 0px solid black;
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.A li {
+    font-weight: normal; 
+}
+
+

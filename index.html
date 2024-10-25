@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Liza's Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Liza's  Website</h1>
+
+    <h3>A Little about Myself :)</h3>
+
+    <p id = 'main'> My name is Liza Davitadze, and I am currently a senior at Northeastern University, where I am pursuing a degree in Economics and Data Science. This semester, I am enrolled in two data science courses and two economics courses. I am particularly excited about starting my second and final co-op next semester at Arrowstreet Capital, where I hope to further develop my skills in a professional environment.
+        In addition to my academic pursuits, I am passionate about a wide range of topics including politics, history, philosophy, economics, and psychology. Outside of academics, I have a variety of hobbies. I love watching films, listening to music, traveling, skiing, playing paddle tennis, and cooking. When it comes to music, my top three genres are old-school hip-hop, R&B/soul, and jazz. Some of my favorite artists include Tupac, Erykah Badu, Lauryn Hill, Amy Winehouse, and Mary J. Blige. As a cinephile, I watch almost everything—except horror movies. My top three films are 2001: A Space Odyssey, Mulan, and The Lord of the Rings trilogy.
+        Originally, I’m from Georgia (the country, not the U.S. state). I came to the U.S. about three years ago for college. I love my country dearly and visit every winter and summer break. I also have two beloved cats back in Georgia, and I miss them very much.
+    </p>
+    <h3 class="contact-header">Contact Information:</h3>
+    <p class="contact-info">Email: <a href="mailto:davitadze.l@northeastern.edu">davitadze.l@northeastern.edu</a></p>
+    <p class="contact-info">LinkedIn: <a href="https://www.linkedin.com/in/liza-davitadze-3b2877237/">Linkedin</a></p>
+
+
+    
+    <p class="A"> Now, I will tell you a little bit about my home country <b>Georgia</b>! </p>
+    <button id = 'navigationButton'>Go to second page</button>  
+     
+    <div class="image-container">
+        <img src="Georgia.jpg.webp" alt="Image 1">
+        <img src="Shkhara.jpg.webp" alt="Image 2">
+        <img src="Batumi.webp" alt="Image 3">
+    </div>
+        
+    <script>
+        const navigationButton = document.getElementById('navigationButton')
+        navigationButton.addEventListener('click', function(){
+            window.location.href = 'page2.html';
+        });
+    </script>
+
+    
+</body>
+</html>
